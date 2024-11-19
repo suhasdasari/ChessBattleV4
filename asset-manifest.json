@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chessbattlev4/static/css/main.34a4639d.css",
+    "main.js": "/chessbattlev4/static/js/main.dd923217.js",
+    "static/js/453.ed06256e.chunk.js": "/chessbattlev4/static/js/453.ed06256e.chunk.js",
+    "static/media/mainbg8.jpg": "/chessbattlev4/static/media/mainbg8.863beafff1b3b5c80a89.jpg",
+    "static/media/loginbg2.png": "/chessbattlev4/static/media/loginbg2.f6dc0ada1c50e1f60966.png",
+    "static/media/gamebg4.jpg": "/chessbattlev4/static/media/gamebg4.06d479d1f5e98b8930b3.jpg",
+    "index.html": "/chessbattlev4/index.html",
+    "main.34a4639d.css.map": "/chessbattlev4/static/css/main.34a4639d.css.map",
+    "main.dd923217.js.map": "/chessbattlev4/static/js/main.dd923217.js.map",
+    "453.ed06256e.chunk.js.map": "/chessbattlev4/static/js/453.ed06256e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34a4639d.css",
+    "static/js/main.dd923217.js"
+  ]
+}
