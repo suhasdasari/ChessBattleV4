@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 body {
-  background-image: url('/Users/suhas/Documents/chessbattlev4/public/assets/loginbg2.png');
+  background-image: url(''/public/assets/loginbg2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
