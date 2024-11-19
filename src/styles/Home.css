@@ -1,0 +1,218 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+/* Main home container styling */
+.home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('/public/assets/mainbg8.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Overlay for background dimming */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Logo text styling */
+.logo-text {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #00A0FF;
+  font-family: 'Cinzel Decorative', serif;
+  z-index: 2;
+}
+
+/* Login button and user info styling */
+.login-button, .user-info {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: #2d536b;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px 0 20px 0; /* Sharp and rounded corners */
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hover effect for login button */
+.login-button:hover {
+  background-color: #688198;
+}
+
+/* Hover effect for user info */
+.user-info:hover {
+  background-color: #6C757D;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+  position: absolute;
+  top: 70px; /* Adjusted to be closer to the user info button */
+  right: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  width: 130px; /* Set a fixed width for the dropdown */
+}
+
+/* Dropdown button styling */
+.dropdown-button {
+  background-color: #F8F9FA;
+  color: #212529;
+  padding: 6px 12px; /* Reduced padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  font-size: 15px; /* Reduced font size */
+}
+
+/* Hover effect for dropdown button */
+.dropdown-button:hover {
+  background-color: #343A40;
+}
+
+/* Content area styling */
+.content {
+  position: relative;
+  max-width: 800px;
+  margin: 0px auto;
+  padding-top: 300px;
+  color: white;
+  text-align: center;
+  z-index: 2;
+  font-family: 'Cinzel Decorative', serif;
+}
+
+/* Main heading styling */
+h1 {
+  font-size: 48px;
+  margin: 5px 0;
+  color: #00A0FF;
+}
+
+/* Subheading styling */
+h2 {
+  font-size: 24px;
+  margin: 0px 0;
+}
+
+/* Partner text styling */
+.partner {
+  font-weight: bold;
+}
+
+/* Unordered list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* List item styling */
+li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Styled button with gradient */
+.styled-button {
+  background: linear-gradient(90deg, #FF00FF, #FF77FF);
+  color: white;
+  padding: 15px 40px;
+  border-radius: 30px 0 30px 0; /* Sharp and rounded corners */
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Hover effect for styled button */
+.styled-button:hover {
+  background: linear-gradient(90deg, #CC00CC, #CC66CC);
+}
+
+/* Profile modal styling */
+.profile-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+/* Profile content styling */
+.profile-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Profile content heading styling */
+.profile-content h1 {
+  margin-bottom: 20px;
+}
+
+/* Label styling in profile content */
+.profile-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Input field styling in profile content */
+.profile-content input {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Button styling in profile content */
+.profile-content button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00A0FF;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hover effect for profile content button */
+.profile-content button:hover {
+  background-color: #0066cc;
+}
